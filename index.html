@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Success Graphs — Where Creativity Beats</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+<!-- ████ NAVBAR ████ -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">
+      <div class="logo-img-wrap">
+        <img src="Assests/logo.jpeg" alt="Success Graphs Logo"/>
+      </div>
+      <span class="logo-text"><b>Success</b> <em>Graphs</em></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#testimonials" class="nav-link">Clients</a></li>
+      <li><a href="#team" class="nav-link">Team</a></li>
+      <li><a href="#contact" class="nav-cta">Get In Touch</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile nav backdrop -->
+<div class="nav-backdrop" id="navBackdrop"></div>
+
+<!-- ████ HERO ████ -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <div class="grid-overlay"></div>
+    <div class="dot-field" id="dotField"></div>
+    <div class="pulse-origin">
+      <div class="pulse-circle pc1"></div>
+      <div class="pulse-circle pc2"></div>
+      <div class="pulse-circle pc3"></div>
+      <div class="pulse-dot"></div>
+    </div>
+  </div>
+  <div class="hero-vignette"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge fade-up">✦ Full-Service Digital Agency</div>
+    <h1 class="hero-heading fade-up">
+      Empowering Businesses<br/>
+      <span class="grad">with Smart Digital</span><br/>Solutions
+    </h1>
+    <p class="hero-desc fade-up">
+      We are a full-service digital agency delivering innovative,<br/>
+      scalable, and result-driven solutions worldwide.
+    </p>
+    <div class="hero-actions fade-up">
+      <a href="#services" class="btn-primary">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#contact" class="btn-ghost">Contact Us</a>
+    </div>
+    <div class="hero-stats fade-up">
+      <div class="hstat">
+        <strong class="counter" data-to="150">0</strong><sup>+</sup>
+        <span>Global Clients</span>
+      </div>
+      <div class="hstat-div"></div>
+      <div class="hstat">
+        <strong class="counter" data-to="5">0</strong><sup>+</sup>
+        <span>Years Active</span>
+      </div>
+      <div class="hstat-div"></div>
+      <div class="hstat">
+        <strong class="counter" data-to="300">0</strong><sup>+</sup>
+        <span>Projects Done</span>
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue">
+    <span>Scroll</span>
+    <div class="scroll-arrow"><i class="fa-solid fa-chevron-down"></i></div>
+  </a>
+</section>
+
+<!-- ████ ABOUT ████ -->
+<section class="section about-sec" id="about">
+  <div class="container">
+    <p class="sec-label reveal">About Us</p>
+    <div class="about-grid">
+      <div class="about-left reveal">
+        <h2 class="sec-title">Who <span class="grad">We Are</span></h2>
+        <p class="about-body">
+  Success Graphs is a dynamic digital service provider agency committed to helping businesses
+          grow in the digital world. With years of experience and a portfolio of satisfied global
+          clients, we specialize in delivering high-quality, customized solutions tailored to your needs.
+        </p>
+        <div class="mission-card reveal">
+          <div class="mission-icon"><i class="fa-solid fa-bullseye"></i></div>
+          <div class="mission-text">
+            <h4>Our Mission</h4>
+            <p>To empower brands with cutting-edge digital services that drive growth, enhance visibility, and deliver measurable results.</p>
+          </div>
+        </div>
+        <div class="about-tagline">Where Creativity Beats</div>
+      </div>
+
+      <div class="about-right reveal">
+        <h3 class="why-head">Why Choose Us</h3>
+        <div class="why-grid">
+          <div class="why-item">
+            <div class="why-icon"><i class="fa-solid fa-users-gear"></i></div>
+            <span>Experienced Professionals</span>
+          </div>
+          <div class="why-item">
+            <div class="why-icon"><i class="fa-solid fa-earth-americas"></i></div>
+            <span>Worldwide Experience</span>
+          </div>
+          <div class="why-item">
+            <div class="why-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+            <span>Client-Focused Approach</span>
+          </div>
+          <div class="why-item">
+            <div class="why-icon"><i class="fa-solid fa-bolt-lightning"></i></div>
+            <span>High-Quality Delivery</span>
+          </div>
+          <div class="why-item">
+            <div class="why-icon"><i class="fa-solid fa-certificate"></i></div>
+            <span>Certified Experts</span>
+          </div>
+          <div class="why-item">
+            <div class="why-icon"><i class="fa-solid fa-clock"></i></div>
+            <span>On-Time Delivery</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ████ SERVICES ████ -->
+<section class="section services-sec" id="services">
+  <div class="container">
+    <p class="sec-label reveal">What We Do</p>
+    <h2 class="sec-title centered reveal">Our <span class="grad">Services</span></h2>
+    <p class="sec-sub reveal">Comprehensive digital solutions crafted for measurable impact</p>
+
+    <div class="services-grid">
+      <div class="svc-card reveal" style="--d:0s">
+        <div class="svc-num">01</div>
+        <div class="svc-icon"><i class="fa-solid fa-layer-group"></i></div>
+        <h3>Full Stack Web Development</h3>
+        <p>Powerful, scalable, and responsive websites using modern technologies for performance and security.</p>
+        <a href="#contact" class="svc-arrow"><i class="fa-solid fa-arrow-up-right"></i></a>
+        <div class="svc-glow"></div>
+      </div>
+      <div class="svc-card reveal" style="--d:.07s">
+        <div class="svc-num">02</div>
+        <div class="svc-icon"><i class="fa-solid fa-code"></i></div>
+        <h3>Web Development</h3>
+        <p>Custom websites designed to meet your business needs — portfolio, business site, or e-commerce platform.</p>
+        <a href="#contact" class="svc-arrow"><i class="fa-solid fa-arrow-up-right"></i></a>
+        <div class="svc-glow"></div>
+      </div>
+      <div class="svc-card reveal" style="--d:.14s">
+        <div class="svc-num">03</div>
+        <div class="svc-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+        <h3>UI/UX Designing</h3>
+        <p>Visually appealing, user-friendly interfaces that enhance user experience and drive engagement.</p>
+        <a href="#contact" class="svc-arrow"><i class="fa-solid fa-arrow-up-right"></i></a>
+        <div class="svc-glow"></div>
+      </div>
+      <div class="svc-card reveal" style="--d:.21s">
+        <div class="svc-num">04</div>
+        <div class="svc-icon"><i class="fa-solid fa-palette"></i></div>
+        <h3>Graphic Designing</h3>
+        <p>From branding to marketing materials — creative visuals that make your business truly stand out.</p>
+        <a href="#contact" class="svc-arrow"><i class="fa-solid fa-arrow-up-right"></i></a>
+        <div class="svc-glow"></div>
+      </div>
+      <div class="svc-card reveal" style="--d:.28s">
+        <div class="svc-num">05</div>
+        <div class="svc-icon"><i class="fa-brands fa-instagram"></i></div>
+        <h3>Social Media Management</h3>
+        <p>Grow your social media presence with strategic content, consistent engagement, and deep analytics.</p>
+        <a href="#contact" class="svc-arrow"><i class="fa-solid fa-arrow-up-right"></i></a>
+        <div class="svc-glow"></div>
+      </div>
+      <div class="svc-card svc-cta reveal" style="--d:.35s">
+        <div class="svc-cta-inner">
+          <h3>Ready to scale your business?</h3>
+          <p>Let's build something remarkable together.</p>
+          <a href="#contact" class="btn-primary">Start a Project</a>
+        </div>
+        <div class="svc-glow"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ████ TESTIMONIALS ████ -->
+<section class="section testimonials-sec" id="testimonials">
+  <div class="container">
+    <p class="sec-label reveal">Client Stories</p>
+    <h2 class="sec-title centered reveal">What Our <span class="grad">Clients Say</span></h2>
+    <p class="sec-sub reveal">Trusted by businesses across 10+ countries</p>
+  </div>
+
+  <div class="marquee-wrap">
+    <div class="marquee-fade-l"></div>
+    <div class="marquee-fade-r"></div>
+    <div class="marquee-viewport">
+      <div class="marquee-track" id="marqueeTrack">
+        <div class="t-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-quote">"Working with Success Graphs was an outstanding experience. Their team exceeded our expectations in every aspect. Quality, communication, and timely delivery were beyond impressive."</p>
+          <div class="t-author">
+            <div class="t-avatar">JA</div>
+            <div class="t-info"><strong>John Anderson</strong><span>USA 🇺🇸</span></div>
+          </div>
+        </div>
+        <div class="t-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-quote">"They truly understand client needs and deliver more than promised. Highly recommended for any digital service."</p>
+          <div class="t-author">
+            <div class="t-avatar">EC</div>
+            <div class="t-info"><strong>Emily Carter</strong><span>USA 🇺🇸</span></div>
+          </div>
+        </div>
+        <div class="t-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-quote">"Success Graphs delivered an exceptional website for our business. Their attention to detail and professionalism truly stood out."</p>
+          <div class="t-author">
+            <div class="t-avatar">AR</div>
+            <div class="t-info"><strong>Ahmed Raza</strong><span>Pakistan 🇵🇰</span></div>
+          </div>
+        </div>
+        <div class="t-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-quote">"I was impressed by their creativity and technical expertise. The final product was even better than what we imagined."</p>
+          <div class="t-author">
+            <div class="t-avatar">SM</div>
+            <div class="t-info"><strong>Sarah Mitchell</strong><span>United Kingdom 🇬🇧</span></div>
+          </div>
+        </div>
+        <div class="t-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-quote">"Their team is highly responsive and skilled. They understood our requirements perfectly and executed them flawlessly."</p>
+          <div class="t-author">
+            <div class="t-avatar">UK</div>
+            <div class="t-info"><strong>Usman Khalid</strong><span>Pakistan 🇵🇰</span></div>
+          </div>
+        </div>
+        <div class="t-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-quote">"Working with Success Graphs was a great experience. They provided innovative solutions and excellent support throughout the project."</p>
+          <div class="t-author">
+            <div class="t-avatar">DM</div>
+            <div class="t-info"><strong>David Miller</strong><span>Canada 🇨🇦</span></div>
+          </div>
+        </div>
+        <div class="t-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-quote">"The design quality and user experience they created for us were outstanding. Highly recommended!"</p>
+          <div class="t-author">
+            <div class="t-avatar">AK</div>
+            <div class="t-info"><strong>Ayesha Khan</strong><span>Pakistan 🇵🇰</span></div>
+          </div>
+        </div>
+        <div class="t-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-quote">"They delivered our project on time with top-notch quality. Their team is reliable and very professional."</p>
+          <div class="t-author">
+            <div class="t-avatar">LO</div>
+            <div class="t-info"><strong>Liam O'Connor</strong><span>Ireland 🇮🇪</span></div>
+          </div>
+        </div>
+        <div class="t-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-quote">"Success Graphs helped us grow our online presence significantly. Their social media management service is excellent."</p>
+          <div class="t-author">
+            <div class="t-avatar">OB</div>
+            <div class="t-info"><strong>Olivia Brown</strong><span>Australia 🇦🇺</span></div>
+          </div>
+        </div>
+        <div class="t-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-quote">"非常专业的团队，沟通顺畅，结果超出预期。(Very professional, smooth communication, results exceeded expectations. Highly recommended.)"</p>
+          <div class="t-author">
+            <div class="t-avatar">LW</div>
+            <div class="t-info"><strong>Li Wei</strong><span>China 🇨🇳</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ████ TEAM ████ -->
+<section class="section team-sec" id="team">
+  <div class="container">
+    <p class="sec-label reveal">The People</p>
+    <h2 class="sec-title centered reveal">Meet Our <span class="grad">Team</span></h2>
+    <p class="sec-sub reveal">The talented minds behind every pixel and pulse</p>
+
+    <div class="team-grid">
+      <div class="team-card reveal" style="--d:0s">
+        <div class="team-img-wrap">
+          <img src="Assests/fonder.png" alt="Mazhar Iqbal"/>
+          <div class="team-overlay">
+            <div class="team-social">
+              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-info">
+          <h4>Mazhar Iqbal</h4>
+          <span>Founder</span>
+          <p>A visionary leader driving innovation and excellence in digital solutions.</p>
+        </div>
+      </div>
+
+      <div class="team-card reveal" style="--d:.1s">
+        <div class="team-img-wrap">
+          <img src="Assests/Co-founder.png" alt="Mubeen Mazhar"/>
+          <div class="team-overlay">
+            <div class="team-social">
+              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-info">
+          <h4>Mubeen Mazhar</h4>
+          <span>Co-Founder</span>
+          <p>Strong expertise in business strategy and development.</p>
+        </div>
+      </div>
+
+      <div class="team-card reveal" style="--d:.2s">
+        <div class="team-img-wrap">
+          <img src="Assests/Manager.png" alt="Eman Malik"/>
+          <div class="team-overlay">
+            <div class="team-social">
+              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-info">
+          <h4>Eman Malik</h4>
+          <span>Manager</span>
+          <p>Ensuring smooth operations and successful project delivery.</p>
+        </div>
+      </div>
+
+      <div class="team-card reveal" style="--d:.3s">
+        <div class="team-img-wrap">
+          <img src="Assests/hr.png" alt="Kainat"/>
+          <div class="team-overlay">
+            <div class="team-social">
+              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-info">
+          <h4>Kainat</h4>
+          <span>HR Manager</span>
+          <p>Managing talent and building a strong, productive team.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ████ CONTACT ████ -->
+<section class="section contact-sec" id="contact">
+  <div class="container">
+    <p class="sec-label reveal">Get In Touch</p>
+    <h2 class="sec-title centered reveal">Let's <span class="grad">Work Together</span></h2>
+    <p class="sec-sub reveal">We'd love to hear from you. Reach out for any inquiries or project discussions.</p>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h3>Contact Details</h3>
+        <div class="cinfo-item">
+          <div class="cinfo-icon"><i class="fa-solid fa-phone"></i></div>
+          <div>
+            <span>Phone</span>
+            <a href="tel:+923331115156">+92 333 111 5156</a>
+          </div>
+        </div>
+        <div class="cinfo-item">
+          <div class="cinfo-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div>
+            <span>Email</span>
+            <a href="mailto:successgraphsservices@gmail.com">successgraphsservices@gmail.com</a>
+          </div>
+        </div>
+        <div class="cinfo-item">
+          <div class="cinfo-icon"><i class="fa-brands fa-instagram"></i></div>
+          <div>
+            <span>Instagram</span>
+            <a href="https://www.instagram.com/success_graphs_services" target="_blank">@success_graphs_services</a>
+          </div>
+        </div>
+        <div class="cinfo-item">
+          <div class="cinfo-icon"><i class="fa-brands fa-tiktok"></i></div>
+          <div>
+            <span>TikTok</span>
+            <a href="https://www.tiktok.com/@successgraphs" target="_blank">@successgraphs</a>
+          </div>
+        </div>
+        <div class="cinfo-item">
+          <div class="cinfo-icon"><i class="fa-brands fa-linkedin"></i></div>
+          <div>
+            <span>LinkedIn</span>
+            <a href="https://linkedin.com/company/pixell-pulse" target="_blank">Pixell Pulse</a>
+          </div>
+        </div>
+        <div class="cinfo-item">
+          <div class="cinfo-icon"><i class="fa-brands fa-whatsapp"></i></div>
+          <div>
+            <span>WhatsApp</span>
+            <a href="https://wa.me/923331115156" target="_blank">+92 333 111 5156</a>
+          </div>
+        </div>
+        <div class="contact-socials">
+          <a href="https://www.instagram.com/success_graphs_services" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@successgraphs" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://linkedin.com/company/pixell-pulse" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://wa.me/923331115156" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap reveal">
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Full Name</label>
+              <input type="text" id="fname" name="user_name" placeholder="Your name" required/>
+            </div>
+            <div class="form-group">
+              <label for="fcountry">Country</label>
+              <select id="fcountry" name="user_country" required>
+                <option value="" disabled selected>Select your country</option>
+                <option value="Pakistan 🇵🇰">Pakistan 🇵🇰</option>
+                <option value="USA 🇺🇸">USA 🇺🇸</option>
+                <option value="United Kingdom 🇬🇧">United Kingdom 🇬🇧</option>
+                <option value="Canada 🇨🇦">Canada 🇨🇦</option>
+                <option value="Australia 🇦🇺">Australia 🇦🇺</option>
+                <option value="UAE 🇦🇪">UAE 🇦🇪</option>
+                <option value="Saudi Arabia 🇸🇦">Saudi Arabia 🇸🇦</option>
+                <option value="Germany 🇩🇪">Germany 🇩🇪</option>
+                <option value="France 🇫🇷">France 🇫🇷</option>
+                <option value="India 🇮🇳">India 🇮🇳</option>
+                <option value="China 🇨🇳">China 🇨🇳</option>
+                <option value="Ireland 🇮🇪">Ireland 🇮🇪</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="fsubject">Subject</label>
+            <input type="text" id="fsubject" name="subject" placeholder="Project discussion..." required/>
+          </div>
+          <div class="form-group">
+            <label for="fmsg">Message</label>
+            <textarea id="fmsg" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary form-submit" id="submitBtn">
+            <span class="btn-text">Send via WhatsApp <i class="fa-brands fa-whatsapp"></i></span>
+          </button>
+          <div class="form-status" id="formStatus"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ████ FOOTER ████ -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo footer-logo">
+          <div class="logo-img-wrap">
+            <img src="Assests/logo.jpeg" alt="Success Graphs Logo"/>
+          </div>
+          <span class="logo-text"><b>Success</b> <em>Graphs</em></span>
+        </a>
+        <p>Where Creativity Beats. We build digital experiences that matter.</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/success_graphs_services" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@successgraphs" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://linkedin.com/company/pixell-pulse" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://wa.me/923331115156" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#testimonials">Clients</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#services">Full Stack Development</a></li>
+          <li><a href="#services">Web Development</a></li>
+          <li><a href="#services">UI/UX Design</a></li>
+          <li><a href="#services">Graphic Design</a></li>
+          <li><a href="#services">Social Media</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="tel:+923331115156"><i class="fa-solid fa-phone"></i> +92 333 111 5156</a></li>
+          <li><a href="mailto:successgraphsservices@gmail.com"><i class="fa-solid fa-envelope"></i> successgraphsservices@gmail.com</a></li>
+          <li><a href="https://wa.me/923331115156" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© 2025 Success Graphs. All rights reserved. <span class="grad">Where Creativity Beats.</span></p>
+    </div>
+  </div>
+</footer>
+
+<!-- ████ WHATSAPP FLOATING BUTTON ████ -->
+<a
+  href="https://wa.me/923331115156"
+  class="whatsapp-fab"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Chat on WhatsApp"
+  title="Chat with us on WhatsApp"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="30" height="30" fill="#fff">
+    <path d="M16 3C9.373 3 4 8.373 4 15c0 2.25.6 4.36 1.64 6.18L4 29l8.1-1.6A12.94 12.94 0 0 0 16 28c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 2c5.514 0 10 4.486 10 10s-4.486 10-10 10a9.93 9.93 0 0 1-5.22-1.47l-.38-.23-4.72.94.96-4.6-.26-.4A9.95 9.95 0 0 1 6 15c0-5.514 4.486-10 10-10zm-3 5c-.19 0-.5.07-.76.36-.26.28-1 .97-1 2.37s1.02 2.75 1.16 2.94c.14.19 2 3.09 4.88 4.21 2.42.96 2.9.77 3.42.72.52-.05 1.69-.69 1.93-1.36.24-.67.24-1.24.17-1.36-.07-.12-.26-.19-.55-.33-.29-.14-1.69-.83-1.95-.93-.26-.1-.45-.14-.64.14-.19.28-.74.93-.9 1.12-.17.19-.33.21-.62.07-.29-.14-1.21-.45-2.3-1.42-.85-.76-1.43-1.7-1.6-1.98-.17-.29-.02-.44.13-.58.13-.13.29-.33.43-.5.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.5-.07-.14-.63-1.55-.87-2.12-.23-.55-.46-.48-.64-.49z"/>
+  </svg>
+</a>
+
+<!-- ████ BACK TO TOP BUTTON ████ -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">
+  <i class="fa-solid fa-chevron-up"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
